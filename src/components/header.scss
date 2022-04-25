@@ -1,0 +1,103 @@
+
+
+.header-container{
+    display:flex;
+    background-color:#b8d6f4;
+    color:black;
+    margin-top:0;
+    font-weight:600;
+    flex:5;
+    height: 200px;
+        .left-container{
+            flex:2;
+            display:flex;
+            flex-direction:row;
+            .order-details{
+                line-height:2;
+                flex:1;
+            }
+            .task-details{
+                flex:1;
+                line-height:2;
+
+                p{
+                    
+                }
+            }
+
+        }.right-container{
+            flex:3;
+            .user-details{
+                flex:1;
+                height:50%;
+                display: flex;
+                flex-direction: row;
+                .work-info{
+                    flex:2;
+             
+                    display:flex;
+                    align-items: flex-end;
+                    p{
+                        font-size: 20px;
+                    }
+                    
+                }
+                .user-info{
+                    flex:3;
+                    display: flex;
+                    
+                    align-items: center;
+                    justify-content: space-between;
+                    .user-picture{
+                        width:25px;
+                        height:25px;
+                        background-color: yellow;
+                        border-radius: 50%;
+                       
+                        
+                    }
+                    .user-profile{
+                        margin-top: 30px;
+                        p{
+                            font-size: 15px;
+                            font-weight: 450;
+                            line-height: 2;
+                            
+                        }
+                    }
+                    .settings{
+                        margin-top: 30px;   
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        p{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            
+                        }
+                        
+                    }
+                }
+            }
+            .user-functions{
+                flex:1;
+                height:50%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                
+                div{
+                    border:2px solid black;
+                    width:80px;
+                    height: 30px;
+                    display:flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 7px;
+                }
+
+            }
+        }
+}

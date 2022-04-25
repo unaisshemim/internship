@@ -1,0 +1,48 @@
+.main-container{
+    position: absolute;
+    top: 200px;
+    right: 30px;
+    left: 300px;
+    background-color: #fff;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    
+    .tools-container{
+        background-color: grey;
+        display: flex;
+        justify-content: space-between;
+        
+        .left-tool-container{
+            display: flex;
+            ul{
+                display: flex;
+                list-style: none;
+                li{
+                    margin-left: 10px;
+                }
+            }
+            
+
+        }.right-tool-container{
+            margin-right: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            align-items: space-around;
+            justify-content: space-around;
+            ul{
+                display: flex;
+                list-style: none;
+                li{
+                    margin-left: 10px;
+                    font-size: 15px;
+                }
+            }
+            
+        }
+}
+
+}
+   
